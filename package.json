@@ -1,0 +1,32 @@
+{
+  "name": "minhle-wiki",
+  "version": "1.0.0",
+  "description": "MinhLe's Wikipedia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vuepress build",
+    "dev": "vuepress dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:libraminh/wiki.git"
+  },
+  "keywords": [
+    "Minhle",
+    "Wikipedia"
+  ],
+  "author": "Minh Le",
+  "license": "MIT",
+  "homepage": "https://wiki.minhle.dev",
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "serve-static": "^1.14.1",
+    "vuepress": "^1.0.2"
+  },
+  "devDependencies": {
+    "sass-loader": "^7.1.0"
+  }
+}
